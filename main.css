@@ -57,13 +57,12 @@ section h2,
     margin-bottom: 16px;
 }
 
-.articlesarticle h3 {
+.articles article h3 {
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
 .articles article a {
-    background-color: blue;
     color: #fff;
     padding: 8px;
     display: inline-block;
@@ -100,5 +99,21 @@ section h2 {
 }
 
 #economy .articles article a {
-    background-color: #ff9f1a;
+    background-color: #fcb552;
+}
+
+#entertainment {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+#entertainment .articles article a {
+    background-color: #cc0000;
+}
+
+#technology {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+#technology .articles article a {
+    background-color: #0000cc;
 }
